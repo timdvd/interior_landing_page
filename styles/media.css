@@ -1,0 +1,83 @@
+@media (max-width: 1200px){
+    .projects .box-container .box{
+        width: 40%;
+    }
+}
+@media (max-width: 992px){
+    .projects .box-container .box{
+        width: 40%;
+    }
+    .services .box-container .box{
+        width: 40%;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+}
+@media (max-width: 768px){
+    html{
+        font-size: 50%;
+    }
+    .header .fa-bars{
+        display: block;
+    }
+    .header nav{
+        position: fixed;
+        top: 8rem;
+        right: -120%;
+        height: calc(100vh - 6rem);
+        width: 100vw;
+        background: rgba(0, 0, 0, .5);
+        z-index: 1000;
+        border-top: .1rem solid rgba(0, 0, 0, .3);
+    }
+    .header nav ul{
+        height: 100%;
+        width: 33rem;
+        background: #fff;
+        flex-flow: column;
+        justify-content: center;
+        float: right;
+    }
+    .header nav ul li{
+        margin: 1rem 0;
+    }
+    .header nav ul li a{
+        display: block;
+        padding: .5rem 0;
+        border: .1rem solid rgba(0, 0, 0, .3);
+        width: 25rem;
+        border-radius: 5rem;
+        text-align: center;
+    }
+    .header nav ul li a:hover{
+        background: #333;
+        color: #fff;
+    }
+    .header .nav-toggle{
+        right: 0%;
+    }
+    .services .box-container .box{
+        width: 40%;
+    }
+    .projects .box-container .box{
+        width: 40%;
+    }
+}
+@media (max-width: 540px){
+    .home .hero .text1{
+        font-size: 3.5rem;
+        width: 35rem;
+    }
+    .home .hero .text2{
+        font-size: 2.5rem;
+        width: 33rem;
+    }
+    .services .box-container .box{
+        width: 90%;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+    .projects .box-container .box{
+        width: 90%;
+    }
+}
